@@ -12,18 +12,18 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Ramdhan Hidayat
 
-description: Stylish Jekyll Theme
+description: CEO & Owner at PT Mdhidaya Solusi Informatika.
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
+  name: Ramdhan Hidayat
+  email: ramdhan.h@gmail.com
+  github: madoen
+  twitter: MdHidaya
   pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  linkedin: ramdhanh
+  bio: CEO & Owner at PT Mdhidaya Solusi Informatika.
+  email_md5: 64f584c6846cc2bf12c41dc7ee4c41a3
 
 rss_path: feed.xml
 categories_path: categories.html
