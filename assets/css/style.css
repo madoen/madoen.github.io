@@ -171,6 +171,29 @@ article h4 a:hover {
   margin-right: 20px;
 }
 
+/* image caption */
+.thumbnail.with-caption {
+  display: inline-block;
+  background-color:#2b2b2b; color:#fff;
+  border: 1px solid #2b2b2b;
+}
+
+.thumbnail.with-caption p {
+  margin: 0;
+  padding-top: 0.5em;
+}
+
+.thumbnail.with-caption small:before {
+  content: '\2014 \00A0';
+}
+
+.thumbnail.with-caption small {
+  width: 100%;
+  text-align: right;
+  display: inline-block;
+  color: #999;
+}
+
 footer {
   padding-top: 15px;
   font-family: 'Ubuntu';
@@ -178,11 +201,11 @@ footer {
 
 /* nav-vertical-tabs component */
 .nav-tabs-vertical {
-    border-right: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .nav-tabs-vertical li {
-    margin-right: -1px;
+  margin-right: -1px;
 }
 
 .nav-tabs-vertical>li.active>a,
@@ -204,17 +227,17 @@ footer {
 .badge { background: #ddd; }
 
 #nav-menu{
-    position: fixed;
-    top: 45px;
-    right: 45px;
-    z-index: 2000;
+  position: fixed;
+  top: 45px;
+  right: 45px;
+  z-index: 2000;
 }
 
 #nav-menu .dropdown-menu {
-    left: inherit;
-    right: 0px;
+  left: inherit;
+  right: 0px;
 }
 
 ul.dropdown-menu>li>a>i.fa {
-    width: 1.3em;
+  width: 1.3em;
 }
