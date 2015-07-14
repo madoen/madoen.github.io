@@ -6,7 +6,6 @@ exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 
-
 defaults:
   -
     scope:
@@ -25,8 +24,18 @@ author:
   bio: CEO & Owner at PT Mdhidaya Solusi Informatika.
   email_md5: 64f584c6846cc2bf12c41dc7ee4c41a3
 
+url: http://ramdhan-hidayat.net
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/feed.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
 
 BASE_PATH:
